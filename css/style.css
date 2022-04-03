@@ -10,7 +10,19 @@ body {
     font-family: "Poppins", sans-serif;
     color:white;
 }
-
+.pseudo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgba(149, 179, 223, 0.212);
+}
 section { display: block;}
 .content {
     padding: 2rem;
@@ -149,7 +161,7 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 45%;
+    width: 90%;
 
 }
 #progress2 {
@@ -165,7 +177,7 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 45%;
+    width: 80%;
 
 }
 #progress3 {
@@ -181,7 +193,7 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 80%;
+    width: 50%;
 
 }
 #progress4 {
@@ -197,7 +209,7 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 85%;
+    width: 70%;
 
 }
 #progress5 {
@@ -213,6 +225,6 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 85%;
+    width: 90%;
 
 }
