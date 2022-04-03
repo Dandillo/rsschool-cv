@@ -181,7 +181,7 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 10%;
+    width: 80%;
 
 }
 #progress4 {
@@ -197,7 +197,7 @@ h2 {
     background-color: #f2c102;
     border-radius: 9px;
     height: 8px;
-    width: 80%;
+    width: 85%;
 
 }
 #progress5 {
@@ -208,22 +208,6 @@ h2 {
     padding: 3px;
 }
 #progress5:after {
-    content: '';
-    display: block;
-    background-color: #f2c102;
-    border-radius: 9px;
-    height: 8px;
-    width: 85%;
-
-}
-#progress6 {
-    background-color: #ebebeb;
-    border-radius: 13px;
-    height: 8px;
-    width: 100%;
-    padding: 3px;
-}
-#progress6:after {
     content: '';
     display: block;
     background-color: #f2c102;
