@@ -1,5 +1,5 @@
 # My first CV 
-First project CV: https://dandillo.github.io/rsschool-cv/
+First project CV: [link](https://dandillo.github.io/rsschool-cv/)
 
 # Danil Luzan
 ****
