@@ -49,7 +49,7 @@ function isPrime(num) {
   * Applied computer science
 * HTML Academy
 * HTML/CSS - Code with Mosh 
-* RSSCHOOL - STAGE 0
+* RSSCHOOL - STAGE#0
 
 ##Languages
 ****
