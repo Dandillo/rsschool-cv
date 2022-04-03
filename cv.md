@@ -30,11 +30,18 @@ especially all the IT stuff.
   
 ##Code Examples
 ****
+Is a number prime? (6 kyu)
 ```javascript
-function multiply(a, b){
-  return a * b
+function isPrime(num) {
+    if (num < 2) return false;
+  else if (num === 2) return true;
+    for (let d = 2; d < Math.sqrt(num) + 1; d++) {
+    if (num % d === 0) {
+      return false;
+    }
+  }
+  return true;
 }
-alert(multiply(5,3));
 ```
 ##Education
 ****
