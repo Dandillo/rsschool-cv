@@ -17,7 +17,11 @@
     <section class="content">
       <div class="cv">
         <div class="content-box-left">
-          <img class="avatar" src="./img/avatar.jpg" alt="Photo of Danil Luzan" />
+          <img
+            class="avatar"
+            src="./img/avatar.jpg"
+            alt="Photo of Danil Luzan"
+          />
           <section class="contact-block">
             <h3 class="title">Contact me</h3>
             <ul class="list">
@@ -288,123 +292,17 @@
             </article>
             <h3 class="title right">Code Examples</h3>
             <article class="code-example">
-              <div
-                class="javascript"
-                style="
-                  font-family: monospace;
-                  color: #006;
-                  border: 1px solid #d0d0d0;
-                  background-color: #f0f0f0;
-                "
+              <pre>
+function isPrime(num) {
+    if (num < 2) return false;
+  else if (num === 2) return true;
+    for (let d = 2; d < Math.sqrt(num) + 1; d++) {
+    if (num % d === 0) {
+      return false;
+    }
+  }
+  return true;</pre
               >
-                <ol>
-                  <li
-                    style="
-                      font-weight: normal;
-                      vertical-align: top;
-                      font: normal normal 130% 'Courier New', Courier, monospace;
-                      color: #003030;
-                    "
-                  >
-                    <div
-                      style="
-                        font: normal normal 1em/1.2em monospace;
-                        margin: 0;
-                        padding: 0;
-                        background: none;
-                        vertical-align: top;
-                        color: #000020;
-                      "
-                    >
-                      <span style="color: #003366; font-weight: bold"
-                        >function</span
-                      >
-                      multiply<span style="color: #009900">&#40;</span>a<span
-                        style="color: #339933"
-                        >,</span
-                      >
-                      b<span style="color: #009900">&#41;</span
-                      ><span style="color: #009900">&#123;</span>
-                    </div>
-                  </li>
-                  <li
-                    style="
-                      font-weight: normal;
-                      vertical-align: top;
-                      font: normal normal 130% 'Courier New', Courier, monospace;
-                      color: #003030;
-                    "
-                  >
-                    <div
-                      style="
-                        font: normal normal 1em/1.2em monospace;
-                        margin: 0;
-                        padding: 0;
-                        background: none;
-                        vertical-align: top;
-                        color: #000020;
-                      "
-                    >
-                      &nbsp;
-                      <span style="color: #000066; font-weight: bold"
-                        >return</span
-                      >
-                      a <span style="color: #339933">*</span> b
-                    </div>
-                  </li>
-                  <li
-                    style="
-                      font-weight: normal;
-                      vertical-align: top;
-                      font: normal normal 130% 'Courier New', Courier, monospace;
-                      color: #003030;
-                    "
-                  >
-                    <div
-                      style="
-                        font: normal normal 1em/1.2em monospace;
-                        margin: 0;
-                        padding: 0;
-                        background: none;
-                        vertical-align: top;
-                        color: #000020;
-                      "
-                    >
-                      <span style="color: #009900">&#125;</span>
-                    </div>
-                  </li>
-                  <li
-                    style="
-                      font-weight: normal;
-                      vertical-align: top;
-                      font: normal normal 130% 'Courier New', Courier, monospace;
-                      color: #003030;
-                    "
-                  >
-                    <div
-                      style="
-                        font: normal normal 1em/1.2em monospace;
-                        margin: 0;
-                        padding: 0;
-                        background: none;
-                        vertical-align: top;
-                        color: #000020;
-                      "
-                    >
-                      <span style="color: #000066">alert</span
-                      ><span style="color: #009900">&#40;</span>multiply<span
-                        style="color: #009900"
-                        >&#40;</span
-                      ><span style="color: #cc0000">5</span
-                      ><span style="color: #339933">,</span
-                      ><span style="color: #cc0000">3</span
-                      ><span style="color: #009900">&#41;</span
-                      ><span style="color: #009900">&#41;</span
-                      ><span style="color: #339933">;</span>
-                    </div>
-                  </li>
-                </ol>
-              </div>
             </article>
             <h3 class="title right">Skills</h3>
 
@@ -414,8 +312,6 @@
               <p>CSS</p>
               <div id="progress2"></div>
               <p>JavaScript</p>
-              <div id="progress3"></div>
-              <p>Python</p>
               <div id="progress4"></div>
               <p>Adobe Photoshop</p>
               <div id="progress5"></div>
